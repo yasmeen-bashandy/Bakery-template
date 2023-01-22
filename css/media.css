@@ -1,0 +1,15 @@
+
+/* ************* RWD ************************* */
+
+
+@media screen and (max-width:768px){
+    .item{
+        width: 100%;
+    }
+}
+
+/* @media screen and (min-width:1200px){
+    .item-sec2{
+        width: 100%;
+    }
+} */

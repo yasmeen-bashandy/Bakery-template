@@ -1,0 +1,277 @@
+/* general style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clr {
+    clear: both;
+}
+
+/*start navbar */
+.layout{
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100vh;
+   
+}
+.nav .img-logo{
+    width: 150px;
+    float: left;
+    margin: 10px 0 40px 30px;
+}
+    
+
+.img-logo img{
+    width: 100%;
+}
+.pages{
+    padding: 30px 10px;
+    width: 40%;
+    float: right;
+
+}
+.pages ul{
+    list-style-type: none;
+}
+
+.pages li{
+    float: left;
+    width: 70px;
+}
+.pages  a{
+    text-decoration: none;
+    color: white;
+   
+}
+
+/* end navbar */
+/* ******************************************************************* */
+/* start header style */
+
+.home{
+   
+    background-image: url(../images/drew-coffman-1872.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: auto;
+    
+}
+.fixed-div{
+    width:30px;
+    height: 80px;
+    background-color: orange;
+    position: fixed;
+    right: 0;
+    top: 25%;
+    padding: 4px 0 2px;
+    border-radius: 5px 0 0 5px;
+   
+}
+
+.content{
+    
+    color: white;
+    text-align: center;
+    height: 100%;
+    padding: 50px;
+}
+.content p {
+   color: #ccc;
+   font-family: Alegreya Sans,sans-serif,monospace;
+   font-size: 24px;
+   margin-bottom: 30px;
+}
+
+.content h1 {
+    font-family: Alegreya,serif,monospace;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.content button {
+    border-radius: 4px;
+    border: none;
+    color: white;
+    padding:15px  ;
+}
+.btn-learn{
+    background-color: tan;
+}
+.content .btn-contact{
+    background-color: transparent;
+    border: 1px solid;
+}
+/* *********************************EEND HOME SECTION ******************************** */
+
+
+
+/* *****************************  START SECTION ONE ******************************** */
+
+
+.list-details  {
+    
+    padding: 20px;
+    line-height: 1.86em;
+    text-align: left;
+
+}
+.list-details ul {
+    list-style-type: none;
+    
+
+}
+
+/* *****************************  END SECTION ONE ******************************** */
+
+
+/* *****************************  START SECTION TWO ******************************** */
+.sec2{
+    
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f8f8f8;
+    margin-top: 30px;
+}
+.sec2 .item-sec2 {
+    width: 50%;
+    float: left; 
+    padding: 15px 20px 0;
+    
+   
+}
+.item-sec2 img{
+    width: 100%;
+    
+}
+.sec2-part1{
+    margin-top: 25px;
+}
+
+.list-details img{
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+
+
+.item-sec2 .inner-sec2 p{
+    color: #686868;
+    margin-bottom:20px 0 20px  ;
+    font-family: Alegreya Sans,sans-serif,monospace;
+    line-height: 1.86em;
+    font-size: 16px;
+}
+.item-sec2 .inner-sec2 h2{
+    margin-bottom: 30px;
+    color: #303030;
+    font-family: Alegreya,serif,monospace;
+    text-transform: capitalize;
+    font-size: 24px;
+}
+
+/* *****************************  END SECTION TWO ******************************** */
+
+
+
+
+
+/* *****************************  SRART SECTION THREE ******************************** */
+.section{
+    background-color: #ffff;
+    text-align: center;
+    padding: 20px 0;
+}
+.contanier{
+    width: 90%;
+    margin: auto;
+   
+}
+
+.header-section h2{
+    margin-bottom: 30px;
+    color: #303030;
+    
+}
+.header-section p{
+    margin-bottom: 20px;
+    color: #686868;
+    font-family: Alegreya Sans,sans-serif,monospace;
+    
+}
+.item {
+    
+    width: 33%;
+    text-align: center;
+    float: left;
+    padding: 5px 20px;
+}
+.inner{
+    /* background-color: orange; */
+}
+.item .inner h4{
+    margin: 10px 0;
+}
+.item .inner p{
+    color: #686868;
+    margin-bottom: 20px;
+    font-family: Alegreya Sans,sans-serif,monospace;
+    line-height: 1.86em;
+}
+.item  img{
+    
+    width: 100%;
+}
+
+
+
+/* *****************************  END SECTION THREE ******************************** */
+
+
+/* *****************************  TOP FOOTER ******************************** */
+
+.footer-top{
+    background: #403d38;
+    padding: 30px 0;
+}
+.top-footer{
+    width: 25%;
+}
+
+
+.list-details img{
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;   
+}
+
+
+
+
+/* *****************************  DOWN FOOTER ******************************** */
+
+.footer-down{
+    background: #353330;
+
+}
+
+.footer-down .logo-footer img{
+    width: 20%;
+    padding: 50px 0 20px;
+    margin: auto;
+}
+
+.footer-down span{
+    font-size: 14px;
+    color: #969696;
+    display: block;
+}
+.icon-footer img{
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+}
