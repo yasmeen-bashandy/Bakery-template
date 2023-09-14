@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Start Home section */
+.home{
+    background-image: url(./images/Copy\ of\ drew-coffman-1872.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+    overflow: auto; /*3ashn l margin collapse lma 3mlna marign top ll child hom-cap*/
+}
+.hom-cap{
+    text-align: center;
+    color: white;
+    margin-top: 50px; /* ay margin aw padding me3lash 3n 50px 3ashn b3ml data space */
+}
+.nav{
+    /* background-color: tomato; */
+}
+.nav-logo{
+    /* background-color:teal; */
+    width:13%;
+    float: left;
+    margin-top: 10px;
+}
+.nav-logo img{
+    width:100%;
+}
+.nav-links{
+    /* background-color:blueviolet; */
+    
+   
+}
+.nav-links ul {
+    float: right;
+    margin-top: 10px;
+} 
+ .nav-links ul li{
+    list-style: none;
+    float: left;
+    padding: 20px;
+    
+}
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+/* ay 7aga a5da float lazm b3dha clear both */
+.clr{
+    clear: both;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.hom-cap{
+    margin-top: 150px;
+}
+.hom-cap p{
+    font-size: 23px;
+}
+.hom-cap h1{
+    font-size: 55px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 25px 0;
+}
+.hom-cap .btn{
+    padding: 17px;
+    color: white;
+    border-radius: 5px;
+    font-size: 17px;
+    margin:30px 5px;
+}
+.hom-cap .btn1{
+    background-color:#8e7754;
+    border-width: 0;
+   
+}
+.hom-cap .btn2{
+    background-color:transparent;
+    border: 2px solid white;
+   
+}
+
+.scroll{
+    width:35px;
+    height: 55px;
+    border: 2px solid white;
+    border-radius: 40%;
+    margin: auto;
+    margin-top: 50px;
+}
+/* End Home section */
+
+
+/* Start about section */
+.about{
+    /* background-color:violet;/ */
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+.about-img{
+    /* background-color:wheat; */
+    width: 40%;
+    float: left;
+}
+.about-img img{
+    width: 100%;
+}
+.about-cap{
+    /* background-color:yellow; */
+    width: 50%;
+    float: right;
+    text-align: center;
+    font-size: 18px;
+    margin-top:60px;
+    color: #686868;
+    margin-right: 20px;
+}
+.about-cap p{
+    margin: 20px 0;
+}
+.about-cap h2{
+    color: #000;
+    text-transform: capitalize;
+}
+.about-list{
+    text-align: left;
+}
+.about-list ul li {
+    padding: 15px;
+    
+}
+/* End about section */
+
+
+
+
+/* Start offer section */
+
+.offer{
+    /* background-color: chocolate; */
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+.offer-cap{
+    /* background-color: violet; */
+    width: 50%;
+    float: left;
+    text-align: center;
+    font-size: 18px;
+    margin-top:70px;
+    color: #686868;
+    margin-left:40px;
+    
+}
+.offer-cap h2{
+    color: #000;
+    text-transform: capitalize;
+}
+.offer-cap p{
+    margin:30px 0;
+}
+.offer-img{
+    /* background-color: yellow; */
+    width: 40%;
+    float: right;
+}
+.offer-img img{
+    width: 100%;
+}
+/* End offer section */
+
+
+
+/* Start gallery section */
+.gallery{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+
+}
+.gallery-cap h2{
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.meal{
+    width: 33%;
+    text-align: center;
+    float: left;
+}
+.meal img{
+    width: 100%;  
+}
+.meal p{
+    margin: 15px 0;
+    color: #686868;
+}
+.inner{
+    padding: 30px;
+}
+
+
+
+/* End gallery section */
+
+
+/* Start blog section */
+.blog{
+    /* background-color:violet;/ */
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+.blog-img{
+    /* background-color:wheat; */
+    width: 40%;
+    float: right;
+}
+.blog-img img{
+    width: 80%;
+}
+.blog-cap{
+    /* background-color:yellow; */
+    width: 50%;
+    float: left;
+    text-align: center;
+    font-size: 18px;
+    margin-top:60px;
+    color: #686868;
+    margin-left: 50px;
+}
+.blog-cap p{
+    margin: 20px 0;
+}
+.blog-cap h2{
+    color: #000;
+    text-transform: capitalize;
+}
+.blog-list{
+    text-align: left;
+}
+.blog-list ul li {
+    padding: 15px;
+    
+}
+/* End about section */
+
+
+/* Start contact section */
+.contact{
+    margin-top: 50px;
+    /* background-color: burlywood; */
+}
+.contact .container{
+    /* background-color: aqua; */
+}
+.contact h4{
+    text-align: center;
+}
+
+.contact-row{
+    width: 25%;
+    float: left;
+    /* background-color: rebeccapurple; */
+    padding: 20px;
+}
+/* End contact section */
+
+
+/* Start info section */
+.info{
+    background-color: #000000a8;
+}
+
+.info-cap{
+    margin: auto;
+    text-align: center;
+    width: 40%;
+    padding:20px;
+    /* background-color: bisque; */
+}
+.info-cap img{
+    width: 50%;
+}
+/* End info section */
