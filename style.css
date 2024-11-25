@@ -6,18 +6,80 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-/* Start Home section */
+h2,h3,h4{
+    color: #303030;
+    font-family: "Alegreya";
+}
+
+.clear-fix{
+    clear: both;
+}
+.contanier{
+    width: 80%;
+    margin: auto;
+}
+
+.about p , .location p , .gallery p , .blog p{
+    color: #686868;
+}
+
+/* start home  */
 .home{
-    background-image: url(./images/Copy\ of\ drew-coffman-1872.jpg);
+    background-image: url(http://www.engage.veented.com/bakery/wp-content/uploads/sites/27/2017/04/drew-coffman-1872.jpg);
     height: 100vh;
-    background-size: 100% 100%;
-    overflow: auto; /*3ashn l margin collapse lma 3mlna marign top ll child hom-cap*/
+    background-position: center center;
+    background-size: cover;
+    overflow: auto;
 }
-.hom-cap{
+.home-cap{
     text-align: center;
+    margin-top: 150px;
     color: white;
-    margin-top: 50px; /* ay margin aw padding me3lash 3n 50px 3ashn b3ml data space */
+
 }
+.home-cap p{
+    font-size: 25px;
+    padding: 20px 0;
+    
+}
+.home-cap h1{
+    font-weight: bold;
+    font-size:55px;
+    margin: 20px 0;
+    font-family: "Alegreya";
+
+}
+.home-cap .btn{
+    padding: 17px;
+    border-radius: 5px;
+    font-size: 17px;
+    margin: 20px 5px;
+    color: white;
+}
+.home-cap .btn1{
+   background-color: #8e7754;
+   border-width: 0;
+   
+}
+.home-cap .btn2{
+   background-color: transparent;
+   border: 2px solid white;
+ }
+ .scroll{
+    width: 35px;
+    height: 55px;
+    border: 2px solid white;
+    border-radius:40%;
+    /* padding: 20px 10px; */
+    margin: auto;
+    margin-top: 100px;
+ }
+ /* end home  */
+
+ 
+
+/*start home navbar */
+
 .nav{
     /* background-color: tomato; */
 }
@@ -50,230 +112,190 @@ body{
     text-decoration: none;
     text-transform: capitalize;
 }
-/* ay 7aga a5da float lazm b3dha clear both */
-.clr{
-    clear: both;
-}
-.container{
-    width: 90%;
-    margin: auto;
-}
-.hom-cap{
-    margin-top: 150px;
-}
-.hom-cap p{
-    font-size: 23px;
-}
-.hom-cap h1{
-    font-size: 55px;
-    font-weight: bold;
-    text-transform: capitalize;
-    margin: 25px 0;
-}
-.hom-cap .btn{
-    padding: 17px;
-    color: white;
-    border-radius: 5px;
-    font-size: 17px;
-    margin:30px 5px;
-}
-.hom-cap .btn1{
-    background-color:#8e7754;
-    border-width: 0;
-   
-}
-.hom-cap .btn2{
-    background-color:transparent;
-    border: 2px solid white;
-   
-}
+/*end home navbar */
 
-.scroll{
-    width:35px;
-    height: 55px;
-    border: 2px solid white;
-    border-radius: 40%;
-    margin: auto;
+
+
+/*start about  */
+
+.about , .location{
     margin-top: 50px;
 }
-/* End Home section */
 
-
-/* Start about section */
-.about{
-    /* background-color:violet;/ */
-    width: 90%;
-    margin: auto;
-    margin-top: 50px;
-}
 .about-img{
-    /* background-color:wheat; */
     width: 40%;
     float: left;
+    margin:40px;
 }
 .about-img img{
+    
     width: 100%;
 }
+.about .about-cap h2, .location .location-cap h2{
+    font-size: 32px;
+}
+
 .about-cap{
-    /* background-color:yellow; */
     width: 50%;
     float: right;
-    text-align: center;
     font-size: 18px;
-    margin-top:60px;
-    color: #686868;
+    text-align: center;
+    margin-top: 50px ;
     margin-right: 20px;
+    padding: 25px 20px;
+   
 }
-.about-cap p{
-    margin: 20px 0;
-}
-.about-cap h2{
-    color: #000;
-    text-transform: capitalize;
+.about-cap p , .location-cap p{
+    margin: 35px 10px;
+       
 }
 .about-list{
     text-align: left;
 }
-.about-list ul li {
-    padding: 15px;
-    
-}
-/* End about section */
-
-
-
-
-/* Start offer section */
-
-.offer{
-    /* background-color: chocolate; */
-    width: 90%;
-    margin: auto;
-    margin-top: 50px;
-}
-.offer-cap{
-    /* background-color: violet; */
-    width: 50%;
-    float: left;
-    text-align: center;
-    font-size: 18px;
-    margin-top:70px;
+.about-list ul li{
+    padding: 20px;
     color: #686868;
-    margin-left:40px;
-    
 }
-.offer-cap h2{
-    color: #000;
-    text-transform: capitalize;
+/*end about  */
+
+
+/*start location  */
+.location{
+    background-color: #f8f8f8;
 }
-.offer-cap p{
-    margin:30px 0;
+
+.location-cap{
+    float: left;
+    text-align: left;
+    width: 40%;
+    font-size: 18px;
+    margin: 50px;
+    padding:30px 20px;
 }
-.offer-img{
-    /* background-color: yellow; */
+.location-cap p{
+    margin-bottom: 30px;
+}
+.location-cap h2{
+    text-align: center;
+}
+.location-img{
     width: 40%;
     float: right;
+    margin:40px;
 }
-.offer-img img{
+.location-img img{
     width: 100%;
 }
-/* End offer section */
+/*End location  */
 
 
-
-/* Start gallery section */
+/*start  gallery  */
 .gallery{
-    width: 90%;
-    margin: auto;
-    margin-top: 50px;
     text-align: center;
+}
+
+.gallery-cap{
+    margin: 30px 0;
+    padding: 5px 0;
 
 }
+
 .gallery-cap h2{
-    text-transform: capitalize;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+ 
 }
+
 .meal{
-    width: 33%;
-    text-align: center;
+    width: 33.33%;
     float: left;
-}
-.meal img{
-    width: 100%;  
-}
-.meal p{
-    margin: 15px 0;
-    color: #686868;
-}
-.inner{
-    padding: 30px;
-}
-
-
-
-/* End gallery section */
-
-
-/* Start blog section */
-.blog{
-    /* background-color:violet;/ */
-    width: 90%;
-    margin: auto;
-    margin-top: 50px;
-}
-.blog-img{
-    /* background-color:wheat; */
-    width: 40%;
-    float: right;
-}
-.blog-img img{
-    width: 80%;
-}
-.blog-cap{
-    /* background-color:yellow; */
-    width: 50%;
-    float: left;
-    text-align: center;
-    font-size: 18px;
-    margin-top:60px;
-    color: #686868;
-    margin-left: 50px;
-}
-.blog-cap p{
-    margin: 20px 0;
-}
-.blog-cap h2{
-    color: #000;
-    text-transform: capitalize;
-}
-.blog-list{
-    text-align: left;
-}
-.blog-list ul li {
-    padding: 15px;
     
 }
-/* End about section */
+.meal img{
+    width: 90%;
+}
+
+.inner {
+    padding: 20px;
+}
+
+.inner p {
+    padding: 10px;
+}
+.meal .inner h4{
+    margin: 20px 0;
+    font-size: 22px;
+}
+
+/*End gallery  */
+
+
+/*start  blog  */
+.blog{
+    background-color: #f8f8f8;
+}
+
+.blog-cap{
+    /* background-color: tomato; */
+    float: left;
+    text-align: left;
+    width: 40%;
+    font-size: 18px;
+    margin: 50px;
+    padding:30px 30px;
+
+
+}
+.blog-cap p{
+    margin-top: 20px;
+}
+.blog-cap ul li {
+    margin-top: 30px;
+    margin-left: 20px;
+    color: #686868;
+
+}
+
+.blog-map{
+    float: right;
+    width: 40%;
+    margin-top: 40px;
+}
+/*End blog  */
+
 
 
 /* Start contact section */
 .contact{
-    margin-top: 50px;
-    /* background-color: burlywood; */
-}
-.contact .container{
-    /* background-color: aqua; */
-}
-.contact h4{
-    text-align: center;
+    background-color: #403d38; 
 }
 
 .contact-row{
+    /* background-color: thistle; */
+    
+}
+
+.contact-inner{
+    /* background-color: yellowgreen; */
     width: 25%;
     float: left;
-    /* background-color: rebeccapurple; */
-    padding: 20px;
+    padding: 30px;
 }
+
+.contact h4{
+    text-align: center;
+    margin-bottom: 20px ; 
+    font-size: 18px;
+    color: #fff;
+}
+
+.contact p{
+    margin-bottom: 20px ; 
+    line-height: 1.5;
+    color: #969696;
+   
+}
+
+ 
 /* End contact section */
 
 
@@ -287,9 +309,15 @@ body{
     text-align: center;
     width: 40%;
     padding:20px;
-    /* background-color: bisque; */
+    
 }
 .info-cap img{
     width: 50%;
-}
+    margin-bottom: 20px;
+} 
 /* End info section */
+
+
+
+
+
